@@ -167,37 +167,44 @@ nav .solid #logo .logo {
 */
 
 /*showimage*/
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 .containerImg{
-  width: 150px;
-  height: 150px;
-  display: inline-block;
-  overflow: hidden;
-  margin-top: -5px;
+  width: 400px;
+  height: 400px;
+  display: inline-block;/*con esto mis fotos salen uno destras de otro*/
+  overflow: hidden;/*esto me mantiene fijo el div para el hover de mi imagen funcione sin modificar mi borde*/
+  margin-top: -5px;/*con esto eliminamos la raya del div que no permitia ver las imagenes totalmente juntas sin borde ni separaciones*/
 }
 
 .containerImg:hover{
-  opacity: 1;
+  opacity: 1;/*con esto mi mi div muestra el color del background*/
   background-color:#F9A91A;
 }
 
+.txt{
+  display: none;/*oculto mi span que contiene texto*/
+  position: relative;
+  top: -200px;/*al star mi span debajo de mi img mi texto en relative aparece abajo y al darle top -100px sube al medio del div*/
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-family: sans-serif;
+
+}
+.containerImg:hover span, .containerImg:focus span{/*usamos esta manera de acceder al span porque aparece oculto en su propia clase*/
+  display: block;/*con esto mostramos el span*/
+
+}
 .img{
   width: 100%;
   height: 100%;
 }
-
-.img:hover{
-  opacity: 0.30;
-  transform:scale(1.2);
+.containerImg:hover img{
+  opacity: 0.30;/*aqui bajamos la opacidad de la imagen para que al mismo tiempo se muestre el color del back del div*/
+  transform:scale(1.2);/*esto hace el efecto zoom de la imagen*/
   cursor: pointer;
-
 }
-
-
 #showImage{
   text-align: center;
 }
