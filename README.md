@@ -1,5 +1,4 @@
-# Coders de laboratoria
+# Coders de Laboratoria
 
-Maquetado web, ejercicio realizado durante el bootcamp de Laboratoria donde
-se muestra las fotos de la 6ta promocion **LOVELACE WARRIORS**, tambien se realiza el menu hamburguesa con puro css3 ademas de efectos con el evento scroll de JavaScript.
-Puedes revisar el proyecto aqui [link to Proyect!](https://cindymendoza.github.io/CodersLaboratoria/)
+Maquetado Web, este ejercicio fue realizado durante mi estancia en el bootcamp de Laboratoria donde se muestra las fotos de la 6ta promoción **LOVELACE WARRIORS**, además de realizar un menú hamburguesa con puro CSS y efectos con el evento Scroll de JavaScript.
+Puedes revisar el proyecto en este [link to Proyect!](https://cindymendoza.github.io/CodersLaboratoria/)
