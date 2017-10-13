@@ -119,17 +119,19 @@ nav.open {
 
 /*animacion escribir*/
 .box-escribir{
-    display: block;
-    position: relative;
-    left: 100px;
-    z-index: -1000;
-    padding: 100px 0px;
+      display: block;
+      position: relative;
+      z-index: -1000;
+      padding: 100px 0px;
+      width: 910px;
+      margin: 0px auto;
 }
 
 h1 {
-	position: relative;
-	color: #fff;
-	font-size: 2.5em;
+    position: relative;
+    color: #fff;
+    font-size: 2.5em;
+    width: 910px;
 }
 
 #cursor{
